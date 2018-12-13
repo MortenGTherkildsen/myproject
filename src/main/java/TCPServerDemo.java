@@ -39,7 +39,7 @@ public class TCPServerDemo {
             outToClient.writeBytes("HTTP/1.1 200 OK\r\n");
             outToClient.writeBytes("Server: Aki's demo server\r\n");
             outToClient.writeBytes("\r\n");
-            outToClient.writeBytes("Hum hum, foo, bar,... and crap. counter = " + counter);
+            outToClient.writeBytes("Glædelig jul. Tæller = " + counter);
             outToClient.writeBytes("\r\n");
             outToClient.writeBytes("Echo: " + fileName);
             connectionSocket.close();
